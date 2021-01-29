@@ -25,7 +25,6 @@ public class ApplicationConfig {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        // 只需要修改红色部分, 保留其他内容
         dataSource.setUrl("mySQL URL");
         dataSource.setUsername("usename");
         dataSource.setPassword("password");
